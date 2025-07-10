@@ -12,7 +12,7 @@
 .btn-primary {
     background-color:#4E47FF ;
     color: white;
-    padding: 24px;
+    padding: 10px;
     border-radius: 5px;
     border: none;
 }
@@ -22,6 +22,9 @@
 
 }
 
+.text-primary {
+     color: #474747;
+}
 /* header section */
 
 header{
@@ -38,7 +41,7 @@ header{
 
 .banner {
     max-width: 1130px;
-    margin: 260px auto;
+    margin: 150px auto;
     padding-bottom: 200px;
 }
 
@@ -49,4 +52,27 @@ header{
 .banner-btn {
     justify-content: center;
     margin-left: 500px;
+}
+/* main */
+main {
+    max-width: 1140px;
+    margin: 150px auto;
+}
+
+/* Action section */
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-title {
+    color: #252432;
+    font-weight: bold;
+}
+
+.action img {
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
 }
