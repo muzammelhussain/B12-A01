@@ -200,9 +200,9 @@ main {
 }
 
 .form-table {
-    display: "flex"; 
-    flex-direction: "column"; 
-    gap: "24px;"
+    display: flex; 
+    flex-direction: column; 
+    gap: 24px;
 }
 
 .form input[type= "text"], .form input[type= "email"], .form textarea{
