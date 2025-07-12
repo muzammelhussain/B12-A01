@@ -180,3 +180,42 @@ main {
 .form button {
     width: 100%;
 }
+
+
+/* footer */
+
+
+footer {
+    background-color: white;
+}
+
+.footer-section {
+    max-width: 1140px;
+    margin: 0px auto;
+    padding-bottom: 48px;
+}
+
+.logo {
+    text-align: center;
+    color: #4E47FF;
+    font-weight: bolder;
+    padding-top: 72px;
+}
+
+.footer-description {
+    text-align: center;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 400px;
+    padding-left: 340px;
+    
+}
+
+.items a{
+    text-decoration: none;
+      
+}
