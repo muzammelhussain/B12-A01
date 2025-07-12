@@ -17,6 +17,10 @@
     border: none;
 }
 
+.btn-primary:hover {
+    background-color: green;
+    color:white;
+}
 
 .text-color {
     color: #4E47FF;
@@ -149,6 +153,34 @@ main {
     margin-bottom: none;
 }
 
+/* Focus section */
+.ready-focus {
+    padding: 48px 100px;
+    box-shadow: 0px 6px 70px 0px rgba(0, 0, 0, 0.06) ;
+    margin-top: 84px;
+    border-radius: 16px;
+} 
+
+.title-focus {
+    text-align: center;
+}
+
+.description-focus {
+    text-align: center;
+}
+
+.btn-focus {
+    margin-left: 380px;
+    margin-bottom: 16px;
+}
+
+.ready-focus img {
+    width: 840px;
+    height: 364px;
+    border-radius: 40px;
+}
+
+
 /* Touch section */
 .touch {
     background-color: ;
@@ -200,6 +232,7 @@ footer {
     color: #4E47FF;
     font-weight: bolder;
     padding-top: 72px;
+    font-size: 80px;
 }
 
 .footer-description {
@@ -217,5 +250,5 @@ footer {
 
 .items a{
     text-decoration: none;
-      
+     color: #474747;
 }
